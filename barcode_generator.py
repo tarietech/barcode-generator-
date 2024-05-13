@@ -3,6 +3,7 @@ from tkinter import filedialog, messagebox
 import barcode
 from barcode.writer import ImageWriter
 import qrcode
+from PIL import Image, ImageTk
 
 class BarcodeGeneratorApp:
     def __init__(self, master):
